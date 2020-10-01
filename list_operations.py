@@ -96,8 +96,9 @@ def middle(input_list):
     [6, 9, 12, 15, 18, 21]
 
     """
+    middle = ([0, 3, 6, 9, 12, 15, 18, 21, 24, 27])
 
-    return []
+    return middle[2:-2]
 
 
 def inner_four(input_list):
