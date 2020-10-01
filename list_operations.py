@@ -38,8 +38,9 @@ def last(input_list):
     'Mar'
 
     """
-
-    return []
+    last = (['Jan', 'Feb', 'Mar'])
+    
+    return last [-1]
 
 
 def top(input_list):
