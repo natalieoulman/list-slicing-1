@@ -144,8 +144,9 @@ def replace_head(input_list):
     True
 
     """
-
-    pass
+    multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
+    multiples[0] = 42
+    
 
 
 def replace_third_and_last(input_list):
