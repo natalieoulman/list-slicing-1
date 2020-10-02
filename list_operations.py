@@ -144,9 +144,9 @@ def replace_head(input_list):
     True
 
     """
-    multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
-    multiples[0] = 42
-    
+    input_list[0] = 42
+
+
 
 
 def replace_third_and_last(input_list):
@@ -160,8 +160,9 @@ def replace_third_and_last(input_list):
     True
 
     """
+    input_list[2]= 37
+    input_list[-1]= 37
 
-    pass
 
 
 def replace_middle(input_list):
@@ -179,8 +180,8 @@ def replace_middle(input_list):
     True
 
     """
-
-    pass
+    input_list[2:8]=[42,37]
+    # pass
 
 
 def delete_third_and_seventh(input_list):
@@ -194,8 +195,9 @@ def delete_third_and_seventh(input_list):
     True
 
     """
-
-    pass
+    del input_list [6]
+    del input_list [2]
+    #pass
 
 
 def delete_middle(input_list):
@@ -211,8 +213,8 @@ def delete_middle(input_list):
     True
 
     """
-
-    pass
+    
+    input_list [2:-2]=[]
 
 
 # This is the part were we actually run the doctests.
